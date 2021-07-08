@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的问卷",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "uni-notice-bar": "/components/uni-notice-bar/uni-notice-bar",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-modal": "/uview-ui/components/u-modal/u-modal"
+  }
+}

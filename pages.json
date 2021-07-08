@@ -1,0 +1,148 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "首页"
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "我的",
+			"enablePullDownRefresh": false
+		}
+
+	}    ,{
+            "path" : "pages/mySearch/mySearch",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的问卷",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/createSearchName/createSearchName",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创建问卷",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/createQuestion/createQuestion",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "创建问题",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/addOptions/addOptions",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加选项",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/editOptions/editOptions",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑选项",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "问卷",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/statistics/statistics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "表格统计",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/charts/charts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图表统计",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/showCharts/showCharts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/searchHistory/searchHistory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "问卷历史",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/formwork/formwork",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#707070",
+		"selectedColor": "#07d165",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/index.png",
+			"selectedIconPath": "static/tabbar/index-selected.png",
+			"text": "首页"
+		},{
+			"pagePath": "pages/mySearch/mySearch",
+			"iconPath": "static/tabbar/mysearch.png",
+			"selectedIconPath": "static/tabbar/mysearch-selected.png",
+			"text": "我的问卷"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/tabbar/my.png",
+			"selectedIconPath": "static/tabbar/my-selected.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

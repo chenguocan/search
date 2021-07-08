@@ -1,0 +1,84 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/createSearchName/createSearchName",
+          "pathName": "pages/createSearchName/createSearchName",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/createQuestion/createQuestion",
+          "pathName": "pages/createQuestion/createQuestion",
+          "query": "id=20",
+          "scene": null
+        },
+        {
+          "name": "pages/createQuestion/createQuestion",
+          "pathName": "pages/createQuestion/createQuestion?id=20",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/createQuestion/createQuestion?id=20",
+          "pathName": "pages/createQuestion/createQuestion",
+          "query": "id=22",
+          "scene": null
+        },
+        {
+          "name": "pages/statistics/statistics",
+          "pathName": "pages/statistics/statistics",
+          "query": "id=5",
+          "scene": null
+        },
+        {
+          "name": "pages/charts/charts",
+          "pathName": "pages/charts/charts",
+          "query": "id=5",
+          "scene": null
+        },
+        {
+          "name": "pages/showCharts/showCharts",
+          "pathName": "pages/showCharts/showCharts",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "id=1",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "id=11",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "id=11",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
